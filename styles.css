@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+    overflow-x: hidden;
+}
+
+/* INTRO*/
+.bg{
+    text-align: center;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.nav-item:hover {
+    background-color: lightslategray;
+}
+    
+.nav-item{
+        font-family: 'New Tegomin';
+        font-weight: bold;
+}
+.navbar-brand{
+        font-family: 'New Tegomin';
+        font-weight: bold;
+        font-size: 2vw;
+}
+
+/*Fondo de pantalla intro*/
+.bg.home{
+    background-image: url(./imagenes/fondo.png);
+}
+
+.bg-text {
+    font-size: 6vw;
+    color:white;
+    font-weight: bold;
+    position:absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 20px;
+    text-align:start;
+    font-family:'Special Elite';
+}
+#intro {
+    font-size: 6vw;
+}
+
+/* sobre mi*/
+#s-m{
+    font-family:'Special Elite';
+    font-weight: bold;
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 10vh;
+}
+.cb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#foto-Perfil{
+    width: 40vw;
+    height: 40vw;
+    background-size: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.card-text{
+    font-family: 'New Tegomin';
+    font-size: 1.5vw;
+}
+
+/*footer*/
+footer{
+    background: black;
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
