@@ -1,0 +1,31 @@
+#contacto {
+    background-image: url(../../../assets/imagenes/educacion.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+   
+}
+
+#contacto form{
+    border-radius: 10px 10px 10px 10px;
+}
+#contacto form button{
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    margin-top: 0px;
+    transition: .5s;
+}
+
+#contacto form button:hover{
+background-color: #1ebba3;
+color: #fff;
+}
+
+#contacto .mensaje, 
+#contacto form{
+    backdrop-filter: blur(10px);
+}

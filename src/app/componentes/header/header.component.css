@@ -1,0 +1,129 @@
+/* inicio navbar */
+
+.navbar{
+    padding: 5px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* estilos menu*/
+
+#navbarSupportedContent { 
+    justify-content: right;
+    
+}
+
+.nav-link{
+    color:white;
+    font-family: 'New Tegomin';
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #1ebba3;
+}
+ /* estilos boton login*/
+button {
+    background-color: #1ebba3;
+    box-shadow: #0e8876 4px 4px 0px;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    margin: 20px;
+    font-family: 'New Tegomin', sans-serif;
+}
+
+button:active {
+    transform: translateY(4px) translateX(4px);
+}
+
+/* ESTILOS ICONOS REDES */
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 25%;
+    outline: 1px solid #D5DBDB;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--instagram:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%,
+            #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--facebook:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.icon--github:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+.icon--codepen:hover {
+    background-color: #F4D03F;
+    outline-color: #F4D03F;
+}
+/*fin navbar */
+
+/* Inicio banner*/
+.banner {
+    background-image: url(../../../assets/imagenes/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.presentacion {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    right: 20%;
+    max-width: 100%;
+}
+
+.presentacion h5 {
+    font-size: 5vw;
+    width: 300;
+    color: white;
+    font-family: 'Special Elite', sans-serif;
+}
+
+.presentacion h1 {
+    font-size: 7vw;
+    width: bolder;
+    color: white;
+    font-family: 'Special Elite', sans-serif;
+}
+
+
+.presentacion p {
+    font-size: 2vw;
+    font-weight: lighter;
+    color: white;
+    font-family: monospace, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+/* fin banner*/
