@@ -9,6 +9,7 @@ import { EducacionExperienciaComponent } from './componentes/educacion-experienc
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 
 
@@ -21,6 +22,7 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
     HabilidadesComponent,
     ProyectosComponent,
     ContactoComponent,
+    LoginComponent,
    
   ],
   imports: [

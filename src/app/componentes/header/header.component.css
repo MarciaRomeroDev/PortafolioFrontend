@@ -25,7 +25,7 @@
     color: #1ebba3;
 }
  /* estilos boton login*/
-button {
+#navbarSupportedContent button {
     background-color: #1ebba3;
     box-shadow: #0e8876 4px 4px 0px;
     border-radius: 8px;
